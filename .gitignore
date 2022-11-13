@@ -1,1 +1,29 @@
-Hugo in Action_ Static sites and dynamic JAMstack apps MEAP V13 - Atishay Jain.pdf
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,powershell
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,powershell
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+### PowerShell ###
+# Exclude packaged modules
+*.zip
+
+# Exclude .NET assemblies from source
+*.dll
+
+### Pdf foles for reference
+*.pdf
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,powershell
